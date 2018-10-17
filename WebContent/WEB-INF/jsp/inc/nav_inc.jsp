@@ -40,7 +40,10 @@
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="top-social">
-						<span class="share-link">Social share:</span>
+						<span class="share-link">
+							<a href="?lang=zh_CN"><spring:message code="lang-ch"/></a> | 
+							<a href="?lang=en_US"><spring:message code="lang-en"/></a>
+						</span>
 						<ul>
 							<li><a href="#"><i class="fa fa-google"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -87,8 +90,12 @@
 						<div class="collapse navbar-collapse" id="navbar-example">
 							<div class="main-menu">
 								<ul class="nav navbar-nav navbar-right">
-									<li><a class="pagess" href="/index.html"><spring:message code="menu-home"/></a></li>
-									<li><a class="pagess" href="#aboutus"><spring:message code="menu-about"/></a></li>
+									<li><a class="pagess" href="/index.html"><spring:message code="menu-home"/></a>
+										<ul class="sub-menu">
+											<li><a class="pagess" href="#aboutus"><spring:message code="menu-about"/></a></li>
+										</ul>
+									</li>
+									<!-- <li><a class="pagess" href="#aboutus"><spring:message code="menu-about"/></a></li>  -->
 									<li><a class="pagess" href="/service-intlstu.html""><spring:message code="menu-service-intlstudent"/></a></li>
 									<li><a class="pagess" href="#"><spring:message code="menu-service-imm"/></a>
 										<ul class="sub-menu">

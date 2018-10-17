@@ -27,7 +27,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>N.S.T. | Study Abroad</title>
+		<title>N.S.T. | Business Immigrant</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -55,12 +55,12 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="breadcrumb text-center">
-                            <div class="section-headline white-headline">
-                                <h3><spring:message code="menu-service-intlstudent"/></h3>
+                             <div class="section-headline white-headline">
+                                <h3><spring:message code="menu-service-imm"/></h3>
                             </div>
                             <ul class="breadcrumb-bg">
-                                <li class="home-bread"><spring:message code="menu-home"/></li>
-                                <li><spring:message code="menu-service-intlstudent"/></li>
+                                <li class="home-bread"><spring:message code="menu-service-imm"/></li>
+                                <li><spring:message code="menu-service-commercial-imm"/></li>
                             </ul>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                             <!-- single-well end-->
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-well last-part">
-                                    <h3><spring:message code="service-intlstudent-title"/></h3>
-                                    <p><spring:message code="service-intlstudent-content-a"/></p>
+                                    <h3><spring:message code="service-commimm-title"/></h3>
+                                    <p><spring:message code="service-commimm-content-a"/></p>
                                 </div>
                             </div>
                         </div>
@@ -92,32 +92,18 @@
                         <div class="row mar-row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-well">
-                                    <h4><spring:message code="service-intlstudent-title-1"/></h4>
-                                    <p><spring:message code="service-intlstudent-content-1a"/></p>
+                                    <h4><spring:message code="service-commimm-title-1"/></h4>
+                                    <p><spring:message code="service-commimm-content-1a"/></p>
                                     <ul class="marker-list">
-                                        <li><spring:message code="service-intlstudent-item-1_1"/></li>
-                                        <li><spring:message code="service-intlstudent-item-1_2"/></li>
-                                        <li><spring:message code="service-intlstudent-item-1_3"/></li>
-                                        <li><spring:message code="service-intlstudent-item-1_4"/></li>
-                                        <li><spring:message code="service-intlstudent-item-1_5"/></li>
+                                        <li><spring:message code="service-commimm-item-1_1"/></li>
+                                        <li><spring:message code="service-commimm-item-1_2"/></li>
+                                        <li><spring:message code="service-commimm-item-1_3"/></li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end Row -->
-                        
-                        <div class="row mar-row">
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="single-well">
-                                    <h4><spring:message code="service-intlstudent-title-2"/></h4>
-                                    <p><spring:message code="service-intlstudent-content-2a"/></p>
+                                    <p><spring:message code="service-commimm-content-1b"/></p>
                                     <ul class="marker-list">
-                                        <li><spring:message code="service-intlstudent-item-2_1"/></li>
-                                        <li><spring:message code="service-intlstudent-item-2_2"/></li>
-                                        <li><spring:message code="service-intlstudent-item-2_3"/></li>
-                                        <li><spring:message code="service-intlstudent-item-2_4"/></li>
-                                        <li><spring:message code="service-intlstudent-item-2_5"/></li>
-                                        <li><spring:message code="service-intlstudent-item-2_6"/></li>
+                                        <li><spring:message code="service-commimm-item-1_4"/></li>
+                                        <li><spring:message code="service-commimm-item-1_5"/></li>
+                                        <li><spring:message code="service-commimm-item-1_6"/></li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,21 +114,24 @@
                         <div class="row mar-row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-well">
-                                    <h4><spring:message code="service-intlstudent-title-3"/></h4>
-                                    <p><spring:message code="service-intlstudent-content-3a"/></p>
-                                    <p><spring:message code="service-intlstudent-content-3b"/></p>
-                                    <ul class="marker-list">
-                                        <li><spring:message code="service-intlstudent-item-3_1"/></li>
-                                        <li><spring:message code="service-intlstudent-item-3_2"/></li>
-                                        <li><spring:message code="service-intlstudent-item-3_3"/></li>
-                                        <li><spring:message code="service-intlstudent-item-3_4"/></li>
-                                        <li><spring:message code="service-intlstudent-item-3_5"/></li>
-                                    </ul>
+                                    <h4><spring:message code="service-commimm-title-2"/></h4>
+                                    <p><spring:message code="service-commimm-content-2a"/></p>
                                 </div>
                             </div>
                         </div>
                         <!-- end Row -->
                         
+                        <div class="row mar-row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-well">
+                                    <h4><spring:message code="service-commimm-title-3"/></h4>
+                                    <p><spring:message code="service-commimm-content-3a"/></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Row -->
+                        
+					
                         <!-- end Row -->
 					</div>
                 </div>

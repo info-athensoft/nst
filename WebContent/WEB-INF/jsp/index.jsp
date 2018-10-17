@@ -59,9 +59,10 @@
         <div class="intro-area intro-2">
            <div class="main-overly"></div>
             <div class="intro-carousel">
+                
                 <div class="intro-content">
                     <div class="slider-images">
-                        <img src="${img_dir}/slider/s3.jpg" alt="">
+                        <img src="${img_dir}/slider/1.jpg" alt="">
                     </div>
                     <div class="slider-content">
 						<div class="container">
@@ -69,25 +70,26 @@
 								<div class="col-md-12 text-center">
 									<!-- layer 1 -->
 									<div class="layer-1">
-										<h1 class="title2">We have a team of dedicated business development </h1>
+										<h1 class="title2"><spring:message code="slide-1-title"/></h1>
 									</div>
 									<!-- layer 2 -->
-									<div class="layer-2 ">
-										<p>Everything we do is underpinned by our in-house data and insights team. We use a number of industry leading. </p>
+									<div class="layer-2">
+										<p><spring:message code="slide-1-sub-title"/></p>
 									</div>
 									<!-- layer 3 -->
 									<div class="layer-3">
-										<a href="#" class="ready-btn left-btn" >Our Services</a>
-										<a href="#" class="ready-btn right-btn">Our Projects</a>
+										<a href="#" class="ready-btn left-btn"><spring:message code="slide-btn-1"/></a>
+										<a href="#" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
 									</div>
 								</div>
 							</div>
 						</div>
                     </div>
                 </div>
+                
                 <div class="intro-content">
                     <div class="slider-images">
-                        <img src="${img_dir}/slider/s4.jpg" alt="">
+                        <img src="${img_dir}/slider/1.jpg" alt="">
                     </div>
                     <div class="slider-content">
 						<div class="container">
@@ -95,16 +97,16 @@
 								<div class="col-md-12 text-center">
 									<!-- layer 1 -->
 									<div class="layer-1">
-										<h1 class="title2">We help agencies to define their new business </h1>
+										<h1 class="title2"><spring:message code="slide-2-title"/></h1>
 									</div>
 									<!-- layer 2 -->
-									<div class="layer-2">
-										<p>Everything we do is underpinned by our in-house data and insights team. We use a number of industry leading. </p>
+									<div class="layer-2 ">
+										<p><spring:message code="slide-2-sub-title"/></p>
 									</div>
 									<!-- layer 3 -->
 									<div class="layer-3">
-										<a href="#" class="ready-btn left-btn" >Our Services</a>
-										<a href="#" class="ready-btn right-btn" >Our Projects</a>
+										<a href="#" class="ready-btn left-btn" ><spring:message code="slide-btn-1"/></a>
+										<a href="#" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
 									</div>
 								</div>
 							</div>
@@ -183,11 +185,13 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-4 col-xs-12">
                         <div class="about-image">
+                        <!-- 
                             <div class="video-content">
 								<a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
+						 -->
                         </div>
                     </div>
                     <!-- column end -->
@@ -438,30 +442,30 @@
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="choose-wrapper">
 							<div class="left-headline">
-								<h3>Why choose customer our services</h3>
+								<h3>Why choose our services</h3>
 							</div>
 							<div class="choose-all">
 								<div class="single-choose">
 								   <a class="choose-images" href="#"><i class="flaticon-diagram"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Business planning</a></h4>
-										<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#">Your competence 1</a></h4>
+										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-images" href="#"><i class="flaticon-pie-chart"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Online consultant</a></h4>
-										<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#">Your competence 2</a></h4>
+										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-images" href="#"><i class="flaticon-bank"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Bank investment</a></h4>
-										<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#">Your competence 3</a></h4>
+										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
 									</div>
 								</div>
 							</div>
@@ -470,7 +474,7 @@
                     <!-- Start Column -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="choose-image">
-                        	<img src="${img_dir}/about/data1.jpg" alt="Choose Imagess">
+                        	<img src="${img_dir}/about/service.jpg" alt="Choose Imagess">
                         </div>
 				    </div>
 				    <!-- End Column -->

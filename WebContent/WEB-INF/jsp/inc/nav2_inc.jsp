@@ -22,7 +22,7 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
-<header class="header-two">
+<header class="header-one">
 	<!-- Start top bar -->
 	<div class="topbar-area topbar-area-2 fix hidden-xs">
 		<div class="container">
@@ -58,7 +58,7 @@
 	</div>
 	<!-- End top bar -->
 	<!-- header-area start -->
-	<div id="sticker" class="header-area header-area-2 hidden-xs">
+	<div id="sticker" class="header-area hidden-xs">
 		<div class="container">
 			<div class="row">
 				<!-- logo start -->
@@ -92,7 +92,7 @@
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="pagess" href="/index.html?lang=${loc}"><spring:message code="menu-home"/></a>
 										<ul class="sub-menu">
-											<li><a class="pagess" href="#aboutus"><spring:message code="menu-about"/></a></li>
+											<li><a class="pagess" href="/index.html?lang=${loc}#aboutus"><spring:message code="menu-about"/></a></li>
 										</ul>
 									</li>
 									<!-- <li><a class="pagess" href="#aboutus"><spring:message code="menu-about"/></a></li>  -->

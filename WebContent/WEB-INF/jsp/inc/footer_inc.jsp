@@ -33,19 +33,17 @@
 							<div class="footer-logo">
 								<a href="#"><img src="${img_dir}/logo/logo2.png" alt=""></a>
 							</div>
-							<p>We help agencies to define their new business objectives
-								and then create the road map to get them there by devising a
-								business.We help agencies to define their new business.</p>
+							<p><spring:message code="slide-1-sub-title"/></p>
 
 							<div class="footer-contacts">
 								<p>
-									<span>Tel :</span> +1800-765-0098
+									<span><spring:message code="footer-tel-title"/> :</span> +1 514-559-6855
 								</p>
 								<p>
-									<span>Email :</span> info@montril67.com
+									<span><spring:message code="footer-email-title"/> :</span> info@nstimmigration.com
 								</p>
 								<p>
-									<span>Location :</span>House -72/3,New york
+									<span><spring:message code="footer-address-title"/> :</span>Montreal Quebec CA
 								</p>
 							</div>
 						</div>
@@ -55,23 +53,16 @@
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="footer-content">
 						<div class="footer-head">
-							<h4>Services Link</h4>
+							<h4><spring:message code="footer-service-link"/></h4>
 							<div class="footer-services-link">
 								<ul class="footer-list">
-									<li><a href="/index.html?lang=${loc}"><spring:message
-												code="menu-home" /></a></li>
-									<li><a href="/index.html?lang=${loc}#aboutus"><spring:message
-												code="menu-about" /> </a></li>
-									<li><a href="#"><spring:message
-												code="menu-service-intlstudent" /></a></li>
-									<li><a href="#"><spring:message
-												code="menu-service-commercial-imm" /></a></li>
-									<li><a href="#"><spring:message
-												code="menu-service-family-imm" /></a></li>
-									<li><a href="#"><spring:message
-												code="menu-service-skillworker-imm" /></a></li>
-									<li><a href="#"><spring:message
-												code="menu-service-appeal" /></a></li>
+									<li><a href="/index.html?lang=${loc}"><spring:message code="menu-home" /></a></li>
+									<li><a href="/index.html?lang=${loc}#aboutus"><spring:message code="menu-about" /> </a></li>
+									<li><a href="/service-intlstu.html?lang=${loc}"><spring:message code="menu-service-intlstudent" /></a></li>
+									<li><a href="/service-commimm.html?lang=${loc}"><spring:message code="menu-service-commercial-imm" /></a></li>
+									<li><a href="/service-familyimm.html?lang=${loc}"><spring:message code="menu-service-family-imm" /></a></li>
+									<li><a href="/service-skillworkerimm.html?lang=${loc}"><spring:message code="menu-service-skillworker-imm" /></a></li>
+									<li><a href="/service-appeal.html?lang=${loc}"><spring:message code="menu-service-appeal" /></a></li>
 								</ul>
 								<!-- <ul class="footer-list hidden-sm">  
 								</ul>-->
@@ -95,10 +86,14 @@
 				<div class="col-md-3 col-sm-3 col-xs-12">
 					<div class="footer-content">
 						<div class="footer-head">
-							<h4>Subscribe</h4>
-							<p>We help agencies to define their new business objectives
-								and then create the road map to get them there by devising a
-								business.</p>
+							<h4><spring:message code="footer-follow-title"/></h4>
+							<p><spring:message code="slide-2-sub-title"/></p>
+							<div class="subs-feilds">
+								<div class="suscribe-input">
+									<button type="submit" id="sus_submit" class="add-btn"><spring:message code="footer-btn-contactus"/></button>
+								</div>
+							</div>
+							<!-- 
 							<div class="subs-feilds">
 								<div class="suscribe-input">
 									<input type="email" class="email form-control width-80"
@@ -106,6 +101,7 @@
 									<button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
 								</div>
 							</div>
+							 -->
 						</div>
 					</div>
 				</div>

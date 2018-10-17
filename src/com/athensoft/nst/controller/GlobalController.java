@@ -42,6 +42,11 @@ public class GlobalController {
 	public String gotoService4(){
 		return "service-skillworkerimm";
 	}
+	
+	@RequestMapping("/service-appeal.html")
+	public String gotoService5(){
+		return "service-appeal";
+	}
 
 	
 }

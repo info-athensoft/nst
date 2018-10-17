@@ -1704,7 +1704,8 @@ span.share-link {
 	color:#fff;
 }
 .about-2{
-	background: url(/img/background/ag1.jpg);
+	/* background: url(/img/background/ag1.jpg); */
+	background: url(/img/background/aboutus.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -2514,7 +2515,8 @@ span.sign {
     position: relative;
 }
 .page-area {
-    background: url(/img/background/b.jpg);
+  /*  background: url(/img/background/b.jpg);*/
+    background: url(/img/background/studyabroad.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -3177,9 +3179,9 @@ span.email-notes{
 .left-menu ul li a {
     color: #333;
     display: block;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 13px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
     position: relative;
     text-decoration: none;
     text-transform: capitalize;

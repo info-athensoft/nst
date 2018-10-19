@@ -126,7 +126,7 @@
 							<div class="well-services">
 							    <span class="number">1</span>
 								<div class="well-icon">
-									<a href="#">1</a>
+									<a href="/service-intlstu.html?lang=${loc}">1</a>
 								</div>
 								<div class="well-content">
 									<h4><spring:message code="home-service-1-title"/></h4>
@@ -139,7 +139,7 @@
 							<div class="well-services">
 							    <span class="number">2</span>
 								<div class="well-icon">
-									<a href="#">2</a>
+									<a href="/service-skillworkerimm.html?lang=${loc}">2</a>
 								</div>
 								<div class="well-content">
 									<h4><spring:message code="home-service-2-title"/></h4>
@@ -152,7 +152,7 @@
 							<div class="well-services">
 							    <span class="number">3</span>
 								<div class="well-icon">
-									<a href="#">3</a>
+									<a href="/service-commimm.html?lang=${loc}">3</a>
 								</div>
 								<div class="well-content">
 									<h4><spring:message code="home-service-3-title"/></h4>
@@ -165,7 +165,7 @@
 							<div class="well-services">
 							    <span class="number">4</span>
 								<div class="well-icon">
-									<a href="#">4</a>
+									<a href="/service-familyimm.html?lang=${loc}">4</a>
 								</div>
 								<div class="well-content">
 									<h4><spring:message code="home-service-4-title"/></h4>

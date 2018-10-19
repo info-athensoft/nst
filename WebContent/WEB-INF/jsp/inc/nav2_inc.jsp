@@ -66,7 +66,7 @@
 					<div class="logo">
 						<!-- Brand -->
 						<a class="navbar-brand page-scroll sticky-logo" href="index.html">
-							<img src="${img_dir}/logo/logo2.png" alt="">
+							<img src="${img_dir}/logo/logo.png" alt="">
 						</a>
 					</div>
 				</div>

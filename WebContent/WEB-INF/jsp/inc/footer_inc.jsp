@@ -23,7 +23,7 @@
 <!-- END i18n -->
 
 
-<footer class="footer-2">
+<footer class="footer-2" id="footer">
 	<div class="footer-area area-padding">
 		<div class="container">
 			<div class="row">

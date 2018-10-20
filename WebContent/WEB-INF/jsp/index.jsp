@@ -78,8 +78,8 @@
 									</div>
 									<!-- layer 3 -->
 									<div class="layer-3">
-										<a href="#" class="ready-btn left-btn"><spring:message code="slide-btn-1"/></a>
-										<a href="#" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
+										<a href="/service-intlstu.html?lang=${loc}" class="ready-btn left-btn" ><spring:message code="slide-btn-1"/></a>
+										<a href="/index.html?lang=${loc}#footer" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
 									</div>
 								</div>
 							</div>
@@ -105,8 +105,8 @@
 									</div>
 									<!-- layer 3 -->
 									<div class="layer-3">
-										<a href="#" class="ready-btn left-btn" ><spring:message code="slide-btn-1"/></a>
-										<a href="#" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
+										<a href="/service-intlstu.html?lang=${loc}" class="ready-btn left-btn" ><spring:message code="slide-btn-1"/></a>
+										<a href="/index.html?lang=${loc}#footer" class="ready-btn right-btn"><spring:message code="slide-btn-2"/></a>
 									</div>
 								</div>
 							</div>
@@ -202,15 +202,15 @@
                             <div class="about-company">
                                 <div class="single-about">
 									<span class="about-icon"><i class="icon icon-diamond" ></i></span>
-									<span class="about-text">Friendly <br/> Team</span>
+									<span class="about-text"><spring:message code="home-aboutus-feature-1"/></span>
                                 </div>
                                 <div class="single-about">
 									<span class="about-icon"><i class="icon icon-graduation-hat" ></i></span>
-									<span class="about-text">Goal <br/> Achivment</span>
+									<span class="about-text"><spring:message code="home-aboutus-feature-2"/></span>
                                 </div>
                                 <div class="single-about">
 									<span class="about-icon"><i class="icon icon-users" ></i></span>
-									<span class="about-text">24/7 <br/> Supports</span>
+									<span class="about-text"><spring:message code="home-aboutus-feature-3"/></span>
                                 </div>
                             </div>
                         </div>
@@ -442,30 +442,30 @@
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="choose-wrapper">
 							<div class="left-headline">
-								<h3>Why choose our services</h3>
+								<h3><spring:message code="home-whyus-title"/></h3>
 							</div>
 							<div class="choose-all">
 								<div class="single-choose">
 								   <a class="choose-images" href="#"><i class="flaticon-diagram"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Your competence 1</a></h4>
-										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#"><spring:message code="home-whyus-item-title-1"/></a></h4>
+										<p><spring:message code="home-whyus-item-content-1"/></p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-images" href="#"><i class="flaticon-pie-chart"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Your competence 2</a></h4>
-										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#"><spring:message code="home-whyus-item-title-2"/></a></h4>
+										<p><spring:message code="home-whyus-item-content-2"/></p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-images" href="#"><i class="flaticon-bank"></i></a>
 									<div class="choose-content">
-										<h4><a href="#">Your competence 3</a></h4>
-										<p>Our immigrant consultants, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="#"><spring:message code="home-whyus-item-title-3"/></a></h4>
+										<p><spring:message code="home-whyus-item-content-3"/></p>
 									</div>
 								</div>
 							</div>

@@ -32,7 +32,7 @@
 
 
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" >
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,6 +43,7 @@
 		<!-- css start -->
         <jsp:include page="${inc_dir}/css_inc.jsp"/>
         <!-- css end -->
+        
 	</head>
 	<body>
 

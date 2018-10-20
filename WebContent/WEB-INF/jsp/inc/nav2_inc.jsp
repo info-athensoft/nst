@@ -65,7 +65,7 @@
 				<div class="col-md-3 col-sm-3">
 					<div class="logo">
 						<!-- Brand -->
-						<a class="navbar-brand page-scroll sticky-logo" href="index.html">
+						<a class="navbar-brand page-scroll sticky-logo" href="/index.html?lang=${loc}">
 							<img src="${img_dir}/logo/logo.png" alt="">
 						</a>
 					</div>
@@ -116,7 +116,7 @@
 											<li><a href="/service-appeal.html?lang=${loc}"><spring:message code="menu-service-appeal-appeal"/></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><spring:message code="menu-contactus"/></a></li>
+									<li><a href="/index.html?lang=${loc}#footer"><spring:message code="menu-contactus"/></a></li>
 								</ul>
 							</div>
 						</div>
@@ -164,7 +164,7 @@
 											<li><a href="/service-appeal.html?lang=${loc}"><spring:message code="menu-service-appeal-appeal"/></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><spring:message code="menu-contactus"/></a></li>
+									<li><a href="/index.html?lang=${loc}#footer"><spring:message code="menu-contactus"/></a></li>
 								</ul>
 						</nav>
 					</div>

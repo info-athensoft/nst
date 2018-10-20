@@ -62,6 +62,7 @@
 html, body {
 	height: 100%;
 	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, Arial,  "Microsoft YaHei", STXihei, sans-serif !important;
 }
 .floatleft {
 	float:left;
@@ -96,12 +97,14 @@ p {
 	margin:0 0 15px;
     color: #777;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-family:"Source Sans Pro", Helvetica, Arial,"Microsoft YaHei", STXihei, sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 15px;
 	color: #444;
     font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
+	font-family:"Source Sans Pro", Helvetica, Arial,"Microsoft YaHei", STXihei, sans-serif !important;
 }
 h1{
 	font-size: 48px;
@@ -148,6 +151,7 @@ body {
 	background: #fff none repeat scroll 0 0;
 	color: #777;
     font-family: 'Open Sans', sans-serif;
+    font-family: "Source Sans Pro", Helvetica, Arial,"Microsoft YaHei", STXihei, sans-serif !important;
 	font-size: 15px;
 	text-align: left;
 	overflow-x: hidden;
@@ -421,6 +425,7 @@ span.share-link {
     padding: 36px 0px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat',"Source Sans Pro", Helvetica, Arial,"Microsoft YaHei", STXihei, sans-serif !important;
     margin: 0px 15px;
 }
 .main-menu ul.navbar-nav li a:hover{

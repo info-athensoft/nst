@@ -44,5 +44,7 @@
 <!-- responsive css -->
 <link rel="stylesheet" href="${webapp_name}/css/responsive.css">
 
+<!-- custom -->
+<link rel="stylesheet" href="${webapp_name}/css/custom.css">
 <!-- modernizr css -->
 <script src="${webapp_name}/js/vendor/modernizr-2.8.3.min.js"></script>

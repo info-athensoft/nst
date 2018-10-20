@@ -89,9 +89,7 @@
 							<h4><spring:message code="footer-follow-title"/></h4>
 							<p><spring:message code="slide-2-sub-title"/></p>
 							<div class="subs-feilds">
-								<div class="suscribe-input">
-									<button type="submit" id="sus_submit" class="add-btn"><spring:message code="footer-btn-contactus"/></button>
-								</div>
+								<img src="/img/logo/nst_qr_code.jpg" alt="qr_code" width="55%"/>
 							</div>
 							<!-- 
 							<div class="subs-feilds">

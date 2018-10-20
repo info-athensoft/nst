@@ -23,7 +23,7 @@
 <!-- END i18n -->
 
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
